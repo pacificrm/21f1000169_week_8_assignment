@@ -15,5 +15,5 @@ calculate=st.button("Find the largest number")
 #    else:
 #       largest = num3
 if calculate:
-   lrg=max(num1,num2,num3)
+   lrg=max(float(num1),float(num2),float(num3))
    st.write("The largest Number is:",lrg)
